@@ -14,8 +14,6 @@
 ;;      Alternatively, press 'gd' (or 'C-c g d') on a module to browse its
 ;;      directory (for easy access to its source code).
 
-(projectile-add-known-project "~/Workspaces/Workspace_java/Study01")
-(projectile-add-known-project "~/Workspaces/Workspace_java/vet.x")
 
 (doom! :input
        chinese
@@ -178,3 +176,6 @@
        :config
        ;;literate
        (default +bindings +smartparens))
+
+;;(projectile-add-known-project "~/Workspaces/Workspace_java/Study01")
+;;(projectile-add-known-project "~/Workspaces/Workspace_java/vet.x")
