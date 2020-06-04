@@ -51,3 +51,12 @@
 ;;
 ;; You can also try 'gd' (or 'C-c g d') to jump to their definition and see how
 ;; they are implemented.
+
+;; custom configurations
+
+(setq
+  dart-format-on-save t
+  projectile-projet-search-path '("~/Workspaces/")
+  )
+
+;;; file end here
